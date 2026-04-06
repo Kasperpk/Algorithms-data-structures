@@ -1,60 +1,81 @@
-# Data Structures and Algorithms Specialization
+# Algorithms, Data Structures, and Problem Solving
 
-This repository contains Python implementations of algorithms and data structures from the Data Structures and Algorithms Specialization course on Coursera.
+This repository is my learning space for:
+- **Coursera** algorithm coursework
+- **CSES** problem set solutions
+- **LeetCode** practice problems
+- **Exercism** exercises
+- Python notes and algorithm experiments
 
-## Repository Structure
+---
 
-The repository is organized into two main areas:
+## 📁 Repository Layout
 
-### 📊 Algorithms
-Located in the `algorithms/` folder:
-- **`solutions/`** - Python implementation files organized by module
-- **`notebooks/`** - Jupyter notebooks for documentation and experimentation
-
-#### Algorithm Modules:
-- **Module 1 - Algorithmic Warmup**: Basic algorithmic problems and complexity analysis
-- **Module 3 - Greedy Algorithms**: Locally optimal choice algorithms
-- **Module 4 - Divide and Conquer Algorithms**: Recursive problem-solving techniques  
-- **Module 5 - Dynamic Programming**: Optimal substructure and overlapping subproblems
-
-### 🏗️ Data Structures
-Located in the `data-structures/` folder:
-- **`solutions/`** - Python implementation files for data structure problems
-- **`notebooks/`** - Jupyter notebooks with detailed analysis and visualizations
-
-#### Data Structure Topics:
-- **Module 1 - Basic Data Structures**: Stacks, queues, trees, and hash tables
-
-## Key Features
-
-Each implementation includes:
-- Comprehensive docstrings explaining algorithms
-- Time and space complexity analysis
-- Coursera-compatible input/output handling
-- Multiple algorithm variants where applicable
-
-## Usage
-
-### Running Algorithm Solutions
-Navigate to any algorithm module directory and run with standard input:
-```bash
-cd algorithms/solutions/"module 5 - Dynamic programming"
-python3 money_change_dp.py < input.txt
+```text
+Algorithms-data-structures/
+  README.md
+  algorithms/
+    week1/                  # Coursera course work
+    week2/
+    week3/
+    week4/
+    practice/
+      cses/                 # CSES solutions
+      leetcode/             # LeetCode solutions
+      exercism/             # Exercism exercises
+    Cormen/                 # notebook-based theory and references
+    python concepts/        # Python learning notes
 ```
 
-### Working with Notebooks
-The notebooks in both `algorithms/notebooks/` and `data-structures/notebooks/` provide:
-- Interactive code examples
-- Step-by-step algorithm explanations
-- Visualization of algorithm behavior
-- Comparison between different approaches
+### Recommended usage
 
-## Algorithm Highlights
+- Keep **Coursera assignments** in the existing weekly folders
+- Keep **platform-based practice** in `algorithms/practice/`
+- Keep **notebooks** for learning, visualization, and drafts
+- Keep **final solutions** in clear `.py` files whenever possible
 
-**Dynamic Programming Module** implements core DP algorithms:
-- Money Change (DP vs Greedy comparison)
-- Primitive Calculator (minimum operations)
-- Edit Distance (Levenshtein distance)
-- Longest Common Subsequence (2 and 3 sequences)
-- Knapsack (0/1 variant with optimizations)
-- Placing Parentheses (expression optimization)
+---
+
+## ✅ What belongs here vs. in the portfolio
+
+This repo should hold the **full archive** of solved problems and study material.
+
+Your portfolio website should only show:
+- a short **Problem Solving / Algorithms** section
+- links to this GitHub repo
+- **3–5 highlighted solutions or write-ups**
+
+---
+
+## ✍️ Suggested naming style
+
+- Use `snake_case.py` for final Python solutions
+- Use notebooks only when you want exploration or explanation
+- Add a short docstring with:
+  - the problem summary
+  - the approach used
+  - time complexity
+  - space complexity
+
+Example:
+
+```python
+def solve(nums):
+    """Return the answer using a greedy approach.
+
+    Time complexity: O(n)
+    Space complexity: O(1)
+    """
+```
+
+---
+
+## 🚀 How to keep the repo clean
+
+1. Solve the problem in the correct folder
+2. Prefer one problem per file
+3. Use descriptive file names
+4. Add short notes only when they add value
+5. Highlight only the best work on the portfolio site
+
+This keeps the repo useful as a learning archive while keeping the portfolio polished and focused.
