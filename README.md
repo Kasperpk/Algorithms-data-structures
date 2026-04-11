@@ -1,11 +1,11 @@
 # Algorithms, Data Structures, and Problem Solving
 
 This repository is my learning space for:
-- **Coursera** algorithm coursework
-- **CSES** problem set solutions
-- **LeetCode** practice problems
-- **Exercism** exercises
-- Python notes and algorithm experiments
+- **Courses** — Coursera and other algorithm coursework
+- **Textbooks** — exercises from Cormen (CLRS) and others
+- **Practice** — CSES, LeetCode, Exercism, Project Euler
+- **Data Structures** — implementations and notes
+- **Python** — language-specific notes and experiments
 
 ---
 
@@ -15,22 +15,25 @@ This repository is my learning space for:
 Algorithms-data-structures/
   README.md
   algorithms/
-    week1/                  # Coursera course work
-    week2/
-    week3/
-    week4/
+    courses/
+      coursera-algorithmic-toolbox/   # Coursera course (weeks 1-4)
+    textbooks/
+      cormen/                         # CLRS exercises (notebooks)
     practice/
-      cses/                 # CSES solutions
-      leetcode/             # LeetCode solutions
-      exercism/             # Exercism exercises
-    Cormen/                 # notebook-based theory and references
-    python concepts/        # Python learning notes
+      cses/                           # CSES solutions
+      leetcode/                       # LeetCode solutions
+      exercism/                       # Exercism exercises
+      project-euler/                  # Project Euler solutions
+    python-concepts/                  # Python learning notes
+  data-structures/                    # DS implementations
 ```
 
 ### Recommended usage
 
-- Keep **Coursera assignments** in the existing weekly folders
+- Keep **course assignments** in `algorithms/courses/<course-name>/`
+- Keep **textbook exercises** in `algorithms/textbooks/<book-name>/`
 - Keep **platform-based practice** in `algorithms/practice/`
+- Keep **data structure implementations** in `data-structures/`
 - Keep **notebooks** for learning, visualization, and drafts
 - Keep **final solutions** in clear `.py` files whenever possible
 
