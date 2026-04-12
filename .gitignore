@@ -1,0 +1,8 @@
+# VS Code Local History extension
+.history/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
