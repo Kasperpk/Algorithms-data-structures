@@ -22,4 +22,4 @@ if __name__ == '__main__':
     output = []
     for target in targets:
         output.append(binary_search_with_duplicates(numbers, target))
-    print(output)
+    print(' '.join(str(num) for num in output))

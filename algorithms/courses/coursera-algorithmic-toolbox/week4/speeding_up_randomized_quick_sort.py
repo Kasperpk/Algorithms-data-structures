@@ -24,3 +24,4 @@ if __name__ == '__main__':
     n = int(input())
     integers = list(map(int, input().split()))
     result = speeding_up_randomized_quick_sort(integers)
+    print(' '.join(str(num) for num in result))
