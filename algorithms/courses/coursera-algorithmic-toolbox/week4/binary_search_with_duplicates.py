@@ -5,8 +5,11 @@ def binary_search_with_duplicates(numbers, target):
     while right >= left:
         middle = int((left+right)/2)
         if numbers[middle] == target:
-            index = numbers.index(target)
-            return index
+            if middle == 0 or numbers[middle-1] != target:
+                return middle
+            
+            right = middle - 1
+            
         elif numbers[middle] < target:
             left = middle + 1
         else:
@@ -22,4 +25,4 @@ if __name__ == '__main__':
     output = []
     for target in targets:
         output.append(binary_search_with_duplicates(numbers, target))
-    print(output)
+    print(' '.join(str(num) for num in output))
